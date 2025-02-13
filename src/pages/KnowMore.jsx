@@ -30,9 +30,11 @@ const KnowMore = () => {
                     ))}
                 </div>
                 <div className="mt-8 text-center">
-                    <button className="bg-[#00F5A0] text-[#0D0F1F] px-8 py-4 font-semibold transition-all duration-200 transform hover:scale-110 hover:bg-[#00D495] cursor-pointer">
-                        Get Started
-                    </button>
+                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">
+                        <button className="bg-[#00F5A0] text-[#0D0F1F] px-8 py-4 font-semibold transition-all duration-200 transform hover:scale-110 hover:bg-[#00D495] cursor-pointer">
+                            Get Started
+                        </button>
+                    </a>
                 </div>
             </section>
         </div>
