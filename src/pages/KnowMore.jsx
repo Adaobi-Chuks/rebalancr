@@ -4,8 +4,8 @@ import cardData from "../data/CardContent";
 const KnowMore = () => {
     return (
         <div className="bg-[#0D0F1F] text-[#E0E0E0]">
-            <section className="py-12 px-10">
-                <h1 className="text-4xl font-semibold mb-12 text-center">
+            <section className="py-12 px-6 sm:px-10">
+                <h1 className="text-3xl sm:text-4xl font-semibold mb-12 text-center">
                     Automate Your Token Swaps with{" "}
                     <span className="relative inline-block">
                         <span className="text-transparent bg-gradient-to-r from-[#00F5A0] to-[#5DE2C1] bg-clip-text">
@@ -18,10 +18,10 @@ const KnowMore = () => {
                     {cardData.map((card, index) => (
                         <div
                             key={index}
-                            className="bg-[#1E232D] p-6 shadow-lg hover:scale-105 cursor-pointer transform transition-all duration-300 flex-1 min-w-[250px] max-w-[350px] w-auto"
+                            className="bg-[#1E232D] p-6 shadow-lg hover:scale-105 cursor-pointer transform transition-all duration-300 flex-1 min-w-[250px] max-w-[350px] w-full sm:w-auto"
                         >
-                            <h2 className="text-3xl font-bold mb-4 text-[#00F5A0]">{card.title}</h2>
-                            <ul className="list-disc pl-6 space-y-2 text-lg text-left">
+                            <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-[#00F5A0]">{card.title}</h2>
+                            <ul className="list-disc pl-6 space-y-2 text-base sm:text-lg text-left">
                                 {card.description.map((desc, i) => (
                                     <li key={i}>{desc}</li>
                                 ))}
