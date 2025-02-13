@@ -9,10 +9,10 @@ const Footer = () => {
                     <span className="text-transparent bg-gradient-to-r from-[#00F5A0] to-[#5DE2C1] bg-clip-text">
                         rebalancr
                     </span>
-                </span> 
+                </span>
                 <span className="ml-1">- copyright &copy; 2025 - All rights reserved.</span>
             </p>
-            <div className="flex justify-center gap-10 mt-2">
+            <div className="flex justify-center gap-10 mt-2 flex-wrap">
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="transition-all duration-200 transform hover:scale-110">
                     <FaGithub size={24} />
                 </a>
