@@ -1,34 +1,34 @@
 const cardData = [
     {
-        title: "Automated Token Swaps",
+        title: "AI-Powered Rebalancing",
         description: [
-            "Set custom thresholds for token balances.",
-            "Tokens automatically swap once thresholds are met.",
-            "Complete automation, no manual tracking required."
+            "Automatically adjust asset allocation based on market trends.",
+            "Balance between volatile assets and stablecoins to reduce risk.",
+            "Ensure consistent portfolio growth with smart AI decisions."
         ]
     },
     {
-        title: "AI-powered Insights",
+        title: "Automated Trading & Smart Swaps",
         description: [
-            "Gain AI-driven insights for portfolio management.",
-            "Make smarter, data-backed decisions.",
-            "Stay ahead of the market trends with predictions."
+            "Execute trades at the best prices using DEX aggregators.",
+            "Minimize slippage and transaction fees.",
+            "Supports multi-chain and cross-DEX trading."
         ]
     },
     {
-        title: "Seamless Integration",
+        title: "Risk Protection & Passive Income",
         description: [
-            "Easily integrate with your wallets and platforms.",
-            "Works smoothly in the background without interruptions.",
-            "Automatic token balancing as part of your workflow."
+            "Stop-loss strategies to prevent major losses.",
+            "Convert assets to stablecoins during downturns.",
+            "Earn through staking, yield farming, and lending."
         ]
     },
     {
-        title: "Customizable Thresholds",
+        title: "Secure & Non-Custodial",
         description: [
-            "Set specific thresholds for each token in your portfolio.",
-            "Get total control over token swaps and balances.",
-            "Adapt the system to fit your unique investment strategy."
+            "You always own your assets—no third-party control.",
+            "All transactions executed transparently via smart contracts.",
+            "No extra apps needed—everything runs on Telegram."
         ]
     }
 ];
